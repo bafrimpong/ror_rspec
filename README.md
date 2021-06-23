@@ -1,24 +1,6 @@
-# README
+# My Friends
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+[![Coverage Status](https://coveralls.io/repos/github/bafrimpong/ror_rspec/badge.svg?branch=main)](https://coveralls.io/github/bafrimpong/ror_rspec?branch=main)
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+## About the App
+This is a simple app to create contact list of my friends which performs a basic CRUD operations. The idea is to show how RSpec is used in testing components of a RoR application.
