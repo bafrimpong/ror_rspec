@@ -13,9 +13,6 @@ jobs:
           name: Install bundler
           command: sudo gem install bundler
       - run:
-          name: Install bundler
-          command: sudo gem install bundler
-      - run:
           name: Which bundler?
-          command: bundle -v
+          command: bundle -v 
       - ruby/bundle-install
