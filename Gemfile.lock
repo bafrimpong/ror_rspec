@@ -1,3 +1,11 @@
+GIT
+  remote: https://github.com/stympy/faker.git
+  revision: 724ffd7d940fe0535606fa8d4de8a38439cd7a48
+  branch: master
+  specs:
+    faker (2.18.0)
+      i18n (>= 1.6, < 2)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -239,6 +247,7 @@ DEPENDENCIES
   coveralls
   database_cleaner-active_record
   factory_bot_rails
+  faker!
   figaro
   jbuilder (~> 2.7)
   pg (>= 0.18, < 2.0)
