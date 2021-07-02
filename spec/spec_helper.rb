@@ -1,7 +1,10 @@
 require 'simplecov'
-# require 'coveralls'
+require 'simplecov-lcov'
+require 'coveralls'
 
-# Coveralls.wear!
+Coveralls.wear!
+SimpleCov::Formatter::LcovFormatter.config.report_with_single_file = true
+SimpleCov.formatter = SimpleCov::Formatter::LcovFormatter
 # SimpleCov.formatter = SimpleCov::Formatter::MultiFormatter.new([SimpleCov::Formatter::HTMLFormatter, Coveralls::SimpleCov::Formatter])
 SimpleCov.start 'rails' do
   add_filter "/spec/"

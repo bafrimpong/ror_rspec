@@ -46,6 +46,7 @@ group :test do
   gem 'shoulda-matchers'
   gem 'timecop'
   gem 'simplecov', require: false#'~>0.21.2', 
+  gem 'simplecov-lcov'
   gem 'coveralls', require: false
   gem 'rspec_junit_formatter'
 end
