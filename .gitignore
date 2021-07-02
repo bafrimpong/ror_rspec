@@ -42,3 +42,6 @@ coverage/
 
 # ignore vendor/cache
 /vendor/cache
+
+# ignore coveralls yml
+.coveralls.yml
