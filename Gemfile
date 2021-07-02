@@ -45,7 +45,7 @@ group :test do
   gem 'database_cleaner-active_record'
   gem 'shoulda-matchers'
   gem 'timecop'
-  gem 'simplecov'#, '~>0.21.2', require: false
+  gem 'simplecov', require: false#'~>0.21.2', 
   gem 'coveralls', require: false
 end
 
