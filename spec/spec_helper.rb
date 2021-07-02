@@ -1,8 +1,8 @@
 require 'simplecov'
 require 'simplecov-lcov'
-require 'coveralls'
+# require 'coveralls'
 
-Coveralls.wear!
+# Coveralls.wear!
 SimpleCov::Formatter::LcovFormatter.config.report_with_single_file = true
 SimpleCov.formatter = SimpleCov::Formatter::LcovFormatter
 # SimpleCov.formatter = SimpleCov::Formatter::MultiFormatter.new([SimpleCov::Formatter::HTMLFormatter, Coveralls::SimpleCov::Formatter])
