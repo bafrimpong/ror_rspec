@@ -12,7 +12,7 @@ jobs:
       - checkout
       - ruby/install-deps
       - ruby/rspec-test
-      - coveralls/uploads:
+      - coveralls/upload:
           path_to_lcov: ./coverage/lcov/project.lcov
 
 workflows:
