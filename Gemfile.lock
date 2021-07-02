@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/stympy/faker.git
-  revision: 724ffd7d940fe0535606fa8d4de8a38439cd7a48
+  revision: 51eb59f16fd10489845eb097eb919e8940a1ddbd
   branch: master
   specs:
     faker (2.18.0)
@@ -253,7 +253,7 @@ DEPENDENCIES
   pg (>= 0.18, < 2.0)
   puma (~> 4.1)
   rails (~> 6.0.4)
-  rspec-rails
+  rspec-rails (~> 5.0.0)
   sass-rails (>= 6)
   shoulda-matchers
   simplecov
@@ -264,7 +264,7 @@ DEPENDENCIES
   webpacker (~> 4.0)
 
 RUBY VERSION
-   ruby 2.6.6p146
+   ruby 2.6.7p197
 
 BUNDLED WITH
-   2.1.4
+   2.2.21
