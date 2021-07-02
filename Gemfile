@@ -47,6 +47,7 @@ group :test do
   gem 'timecop'
   gem 'simplecov', require: false#'~>0.21.2', 
   gem 'coveralls', require: false
+  gem 'rspec_junit_formatter'
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
