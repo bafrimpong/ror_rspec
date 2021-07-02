@@ -14,11 +14,11 @@ jobs:
       - ruby/rspec-test
       - coveralls/upload:
           path_to_lcov: ./coverage/lcov/project.lcov
-    database:
-      override:
-        - bundle exec rake db:drop
-        - bundle exec rake db:create RAILS_ENV=test
-        - bundle exec rake db:migrate RAILS_ENV=test
+database:
+  override:
+    - bundle exec rake db:drop
+    - bundle exec rake db:create RAILS_ENV=test
+    - bundle exec rake db:migrate RAILS_ENV=test
 workflows:
   build_and_test:
     jobs:
